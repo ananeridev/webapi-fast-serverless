@@ -1,8 +1,5 @@
 # webapi-fast-serverless
-
-# Project Name
-
-This is a brief description of your project. It should explain what the project does, who it's for, and why it exists.
+This project its to exemplify how easy it is use serverless to web apis
 
 ## About Serverless
 
