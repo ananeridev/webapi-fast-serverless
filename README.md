@@ -1,5 +1,6 @@
-# webapi-fast-serverless
-This project its to exemplify how easy it is use serverless to web apis
+# Fast WebAPIs with Serverless
+
+This project is to exemplify how easy it is to use serverless web APIs
 
 ## About Serverless
 
