@@ -1,13 +1,11 @@
-FROM node:14
+FROM node:16-slim
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
-COPY package*.json ./
+COPY package*.json /app
 
 RUN npm install
 
-RUN npm install -g serverless serverless-offline@6.8.0
+COPY . /app
 
-COPY . .
-
-CMD ["serverless", "offline"]
+CMD ["npm", "run", "start"]

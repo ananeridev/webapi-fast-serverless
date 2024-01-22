@@ -1,6 +1,27 @@
 {
   "devDependencies": {
-    "serverless-offline": "^13.3.3" 
-    }
-  
+    "serverless-offline": "^13.3.3"
+  },
+  "name": "fast-api-with-serverless",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serverless offline start --host 0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ananeridev/webapi-fast-serverless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ananeridev/webapi-fast-serverless/issues"
+  },
+  "homepage": "https://github.com/ananeridev/webapi-fast-serverless#readme",
+  "dependencies": {
+    "serverless": "^3.38.0"
+  }
 }
